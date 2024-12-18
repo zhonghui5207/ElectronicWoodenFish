@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E60CCE176A429827EFB7E98 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC03572ACC5B9725F07C8772 /* SettingsView.swift */; };
+		257B06FBA58DA97A4047B1A0 /* woodenfish-gold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C6C721EA0B31BD36286C807 /* woodenfish-gold.mp3 */; };
+		3FA1E149D8FCA1F11642946F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC16B583E7B17A3FF9EB91 /* StatsView.swift */; };
+		455B5C00D50BF76462C28C77 /* woodenfish-jade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85F4322D3719DA9F15C0E5E6 /* woodenfish-jade.mp3 */; };
+		661C39D54155B691F8030AE2 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F554375A5D4D0B982AF5BF /* Achievement.swift */; };
+		6624D194F9A6584697F159D4 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A38626621ED5F34FEAF2B /* ParticleEffect.swift */; };
+		733A201AB43F9424E169DE1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EBC44AA440ABD3B0DF2F22 /* SceneDelegate.swift */; };
+		74C0ADF988778FA02205C8A4 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B6AD96C53AB439A75DEBA /* ThemeManager.swift */; };
+		8163A1D423F9EAAE76E0763D /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850BC0A741EAB4D3097D47A0 /* AchievementView.swift */; };
+		8B373CFCB4D516663725A89A /* woodenfish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC58019001DA4AE6D5C295D8 /* woodenfish.mp3 */; };
+		9C6A1B7CF1F589655BD0E26E /* ElectronicWoodenFishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC44D8B4768C74195B69E2 /* ElectronicWoodenFishApp.swift */; };
+		AF66A398D34BE8EFF5B3B16B /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066B65E2E8E4A39B1A65B97 /* ThemeView.swift */; };
+		BAA0DDE88BCE4F483F77DA8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186BD84F94AE838468E6B2A /* ContentView.swift */; };
+		BC85481EEC53612E0420E3F8 /* woodenfish-crystal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B6488D1A99AC18AE6E8867 /* woodenfish-crystal.mp3 */; };
+		FB2870D6E8283C99D8B517E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FF3EF7C8E841168C0989E4 /* Assets.xcassets */; };
+		FB425DBB94C2BEBD7824A27C /* WoodenFishManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D95DBD18A3E54D0317FD91 /* WoodenFishManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B6488D1A99AC18AE6E8867 /* woodenfish-crystal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "woodenfish-crystal.mp3"; sourceTree = "<group>"; };
+		57F554375A5D4D0B982AF5BF /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		5C6C721EA0B31BD36286C807 /* woodenfish-gold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "woodenfish-gold.mp3"; sourceTree = "<group>"; };
+		665A38626621ED5F34FEAF2B /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
+		6AEC44D8B4768C74195B69E2 /* ElectronicWoodenFishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicWoodenFishApp.swift; sourceTree = "<group>"; };
+		850BC0A741EAB4D3097D47A0 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		858FA5A9C3273061D3143DA2 /* ElectronicWoodenFish.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ElectronicWoodenFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F4322D3719DA9F15C0E5E6 /* woodenfish-jade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "woodenfish-jade.mp3"; sourceTree = "<group>"; };
+		9066B65E2E8E4A39B1A65B97 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		9186BD84F94AE838468E6B2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92D95DBD18A3E54D0317FD91 /* WoodenFishManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodenFishManager.swift; sourceTree = "<group>"; };
+		AD0B6AD96C53AB439A75DEBA /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		B0FF3EF7C8E841168C0989E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2AC16B583E7B17A3FF9EB91 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		CC03572ACC5B9725F07C8772 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CC58019001DA4AE6D5C295D8 /* woodenfish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woodenfish.mp3; sourceTree = "<group>"; };
+		CE1BB8C642C024D85E4EEACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1EBC44AA440ABD3B0DF2F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		163F446D9C8910354A7C89CC = {
+			isa = PBXGroup;
+			children = (
+				9E20181ED24229D98C232D19 /* Resources */,
+				E27107F658E0EF33C31B0C4B /* Sources */,
+				4C7D1DA5340B585C1B6DE00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C7D1DA5340B585C1B6DE00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858FA5A9C3273061D3143DA2 /* ElectronicWoodenFish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E20181ED24229D98C232D19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07B6488D1A99AC18AE6E8867 /* woodenfish-crystal.mp3 */,
+				5C6C721EA0B31BD36286C807 /* woodenfish-gold.mp3 */,
+				85F4322D3719DA9F15C0E5E6 /* woodenfish-jade.mp3 */,
+				CC58019001DA4AE6D5C295D8 /* woodenfish.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E27107F658E0EF33C31B0C4B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				57F554375A5D4D0B982AF5BF /* Achievement.swift */,
+				850BC0A741EAB4D3097D47A0 /* AchievementView.swift */,
+				B0FF3EF7C8E841168C0989E4 /* Assets.xcassets */,
+				9186BD84F94AE838468E6B2A /* ContentView.swift */,
+				6AEC44D8B4768C74195B69E2 /* ElectronicWoodenFishApp.swift */,
+				CE1BB8C642C024D85E4EEACB /* Info.plist */,
+				665A38626621ED5F34FEAF2B /* ParticleEffect.swift */,
+				D1EBC44AA440ABD3B0DF2F22 /* SceneDelegate.swift */,
+				CC03572ACC5B9725F07C8772 /* SettingsView.swift */,
+				B2AC16B583E7B17A3FF9EB91 /* StatsView.swift */,
+				AD0B6AD96C53AB439A75DEBA /* ThemeManager.swift */,
+				9066B65E2E8E4A39B1A65B97 /* ThemeView.swift */,
+				92D95DBD18A3E54D0317FD91 /* WoodenFishManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226AC602C3D04EFC4C292784 /* ElectronicWoodenFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20498E7B17FE6BCBF1655DC /* Build configuration list for PBXNativeTarget "ElectronicWoodenFish" */;
+			buildPhases = (
+				79BE32FB83788F395B4C3D9E /* Sources */,
+				7C0D72803884FAD109DD6080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectronicWoodenFish;
+			productName = ElectronicWoodenFish;
+			productReference = 858FA5A9C3273061D3143DA2 /* ElectronicWoodenFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144A1994AE66703AEABBFDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					226AC602C3D04EFC4C292784 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 33D0B93284D52F632C90D3ED /* Build configuration list for PBXProject "ElectronicWoodenFish" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 163F446D9C8910354A7C89CC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226AC602C3D04EFC4C292784 /* ElectronicWoodenFish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C0D72803884FAD109DD6080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2870D6E8283C99D8B517E9 /* Assets.xcassets in Resources */,
+				BC85481EEC53612E0420E3F8 /* woodenfish-crystal.mp3 in Resources */,
+				257B06FBA58DA97A4047B1A0 /* woodenfish-gold.mp3 in Resources */,
+				455B5C00D50BF76462C28C77 /* woodenfish-jade.mp3 in Resources */,
+				8B373CFCB4D516663725A89A /* woodenfish.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BE32FB83788F395B4C3D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C39D54155B691F8030AE2 /* Achievement.swift in Sources */,
+				8163A1D423F9EAAE76E0763D /* AchievementView.swift in Sources */,
+				BAA0DDE88BCE4F483F77DA8E /* ContentView.swift in Sources */,
+				9C6A1B7CF1F589655BD0E26E /* ElectronicWoodenFishApp.swift in Sources */,
+				6624D194F9A6584697F159D4 /* ParticleEffect.swift in Sources */,
+				733A201AB43F9424E169DE1A /* SceneDelegate.swift in Sources */,
+				0E60CCE176A429827EFB7E98 /* SettingsView.swift in Sources */,
+				3FA1E149D8FCA1F11642946F /* StatsView.swift in Sources */,
+				74C0ADF988778FA02205C8A4 /* ThemeManager.swift in Sources */,
+				AF66A398D34BE8EFF5B3B16B /* ThemeView.swift in Sources */,
+				FB425DBB94C2BEBD7824A27C /* WoodenFishManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B4C61C74993152A6524E91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		231BDE8FBFA3DA0954315797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.electronicwoodenfish;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		514DEA16A77CA9A5964B494F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F89428551EC682CA83632A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.electronicwoodenfish;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D0B93284D52F632C90D3ED /* Build configuration list for PBXProject "ElectronicWoodenFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4C61C74993152A6524E91F /* Debug */,
+				514DEA16A77CA9A5964B494F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A20498E7B17FE6BCBF1655DC /* Build configuration list for PBXNativeTarget "ElectronicWoodenFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231BDE8FBFA3DA0954315797 /* Debug */,
+				F89428551EC682CA83632A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 144A1994AE66703AEABBFDD8 /* Project object */;
+}
